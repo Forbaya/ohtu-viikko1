@@ -114,6 +114,6 @@ public class VarastoTest {
         varasto.lisaaVarastoon(5);
         System.out.println("saldo = " + varasto.getSaldo() + ", vielä tilaa " + 5);
         System.out.println(varasto.toString());
-        assertEquals("saldo = 666.0, vielä tilaa 5.0", varasto.toString());
+        assertEquals("saldo = 5.0, vielä tilaa 5.0", varasto.toString());
     }
 }
